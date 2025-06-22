@@ -1,0 +1,23 @@
+{
+  "name": "custom-llm-sample",
+  "displayName": "Custom LLM Sample",
+  "publisher": "vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "*"
+  },
+  "enabledApiProposals": [
+    "languageModelChat"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "compile": "npx tsc -b",
+    "watch": "npx tsc -b -w"
+  },
+  "dependencies": {
+    "openai": "^4.25.1"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.101.0"
+  }
+}
