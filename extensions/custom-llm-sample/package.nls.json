@@ -1,0 +1,4 @@
+{
+  "displayName": "Custom LLM Sample",
+  "description": "Demonstrates registering a custom Language Model provider"
+}
